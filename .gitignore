@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# --- Build / packaging output (PyInstaller, etc.) ---
+build/
+dist/
+*.exe
+
+# --- IDE / tooling ---
+.claude/
+.idea/
+.vscode/
+
+# --- OS junk ---
+desktop.ini
+Thumbs.db
+.DS_Store
+*.log
